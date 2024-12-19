@@ -1,0 +1,16 @@
+base_url: "https://api.github.com"
+username: "ADD_GITHUB_USERNAME_HERE"
+
+# Repository Configuration
+repo_limit: 100
+include_private_repos: False # Requires personal access token with [read:user] scope selected to access private repositories
+include_forks: True
+include_stars: True
+include_watchers: True
+
+# Output Configuration
+include_overall_totals: True
+include_individual_totals: True
+
+# Network Configuration
+timeout: 10
