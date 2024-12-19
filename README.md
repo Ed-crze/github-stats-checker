@@ -39,7 +39,8 @@ A Python tool for analyzing GitHub profiles and repository statistics. This tool
 ## 📋 Table of Contents
 
 - [Installation](#-installation)
-- [Access Token Configuration](#-configuration)
+- [Authentication](#-authentication-optional)
+- [Configuration](#-configuration-optional)
 - [Usage](#-usage)
 - [Advanced Configuration](#%EF%B8%8F-advanced-configuration)
 - [Error Handling and Safety](#-error-handling-and-safety)
@@ -67,7 +68,14 @@ A Python tool for analyzing GitHub profiles and repository statistics. This tool
    pip install -r requirements.txt
    ```
 
-## 🔑 Configuration
+## 🔒 Authentication (*Optional*)
+
+In order to access private repositories, you must provide a personal access token with the `read:user` scope selected.
+
+> [!IMPORTANT]  
+> Without a personal access token, this tool will not be able to access private repositories.
+
+## 🔑 Configuration (*Optional*)
 1. Obtain an access token from [GitHub](https://github.com/settings/tokens).
 2. You have three options for managing your access token:
    <details>
