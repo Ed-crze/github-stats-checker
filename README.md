@@ -101,6 +101,8 @@ github.crawl()
 
 ## ⚙️ Advanced Configuration
 
+*You can customize the behavior of the tool by modifying the `config.yaml` file in the root directory of the repository.*
+
 | Option | Type | Description | Default |
 |--------|------|-------------|---------|
 | `repo_limit` | Integer | Maximum repositories to analyze | `100` |
