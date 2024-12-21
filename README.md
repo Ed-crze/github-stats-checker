@@ -32,7 +32,6 @@ A Python tool for analyzing GitHub profiles and repository statistics. This tool
 - 📊 **Profile Analytics**: Fetch comprehensive GitHub user profile information and statistics
 - 📈 **Repository Stats**: Analyze stars, forks, watchers, and other metrics for repositories
 - 🔒 **Private Repos**: Support for private repository access with proper authentication
-- 🔄 **Batch Processing**: Process multiple repositories with unified configurations
 - 🪶 **Lightweight Design**: Minimal dependencies for easy setup and deployment
 - 🔒 **Robust Error Handling**: Comprehensive error catching and validation
 
